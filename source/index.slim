@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    meta charset="utf-8" /
+    title Stanislav Fesenko
+    = stylesheet_link_tag :application
+  body
+    .card
+      h1.card__title Stanislav Fesenko
+      .card__meta
+        .card__position Ruby developer
+        .card__location Tver, Russia
+    a.mail_to href="mailto:iamdeuterium@gmail.com"  iamdeuterium@gmail.com
+    = partial 'metrika.html'
