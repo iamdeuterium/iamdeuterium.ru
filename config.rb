@@ -18,7 +18,7 @@ end
 activate :deploy do |deploy|
   deploy.method = :rsync
   deploy.host   = 'iamdeuterium.ru'
-  deploy.user   = 'tz'
+  deploy.user   = 'deploy'
   deploy.path   = "/home/#{deploy.user}/projects/iamdeuterium.ru"
   deploy.clean  = true
 end
