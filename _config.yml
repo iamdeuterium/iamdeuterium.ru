@@ -1,0 +1,9 @@
+title: Stanislav Fesenko — Ruby developer
+email: iamdeuterium@gail.com
+url: https://iamdeuterium.ru
+destination: public
+exclude:
+  - .idea/
+  - Gemfile
+  - Gemfile.lock
+  - assets/css/style.css

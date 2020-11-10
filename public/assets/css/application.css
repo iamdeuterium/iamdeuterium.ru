@@ -1,0 +1,51 @@
+body {
+    background: #262324;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px
+}
+
+.card {
+    position: absolute;
+    left: 36px;
+    right: 36px;
+    top: 50%;
+    margin-top: -41px
+}
+
+.card__title {
+    color: #fcfcfc;
+    margin: 0.67em 0
+}
+
+.card__title {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 0
+}
+
+.card__position, .card__location {
+    float: left;
+    margin-right: 16px;
+    text-transform: uppercase
+}
+
+.card__position {
+    color: #666666
+}
+
+.card__location {
+    color: #333333
+}
+
+.mail_to {
+    position: absolute;
+    right: 36px;
+    bottom: 36px;
+    color: #666666;
+    text-decoration: none
+}
+
+.mail_to:hover {
+    text-decoration: underline
+}
